@@ -74,7 +74,7 @@ getSquadListRequest();
 <style scoped>
 .create_squad_button {
     background: hsl(var(--theme-color));
-}
+};
 // global.d.ts
 export {};
 
