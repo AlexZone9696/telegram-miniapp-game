@@ -74,14 +74,6 @@ getSquadListRequest();
 <style scoped>
 .create_squad_button {
     background: hsl(var(--theme-color));
-};
-// global.d.ts
-export {};
-
-declare global {
-  interface Window {
-    Telegram: any; // или укажите конкретный тип вместо `any`, если он вам известен
-  }
 }
 
 
